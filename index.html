@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI and ML Services in Cloud Platforms</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0073e6;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #0073e6;
+            text-align: center;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .cloud-providers {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .cloud-provider {
+            flex: 1;
+            background-color: #f2f2f2;
+            padding: 20px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            margin: 0 10px 20px 10px;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+        }
+
+        .cloud-provider img {
+            max-width: 200px; /* Increase logo size */
+            height: auto;
+        }
+
+        .cloud-provider a {
+            text-decoration: none;
+            color: #0073e6;
+            display: block;
+        }
+
+        .cloud-provider:hover {
+            background-color: #0073e6;
+            color: #fff;
+            border: 2px solid #0073e6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AI and ML Services in Cloud Platforms</h1>
+    </header>
+    <div class="container">
+        <h2>Cloud Providers</h2>
+        <div class="cloud-providers">
+            <div class="cloud-provider" onclick="openAWSPage()">
+                <img src="aws-logo.png" alt="AWS">
+                <a>Amazon Web Services (AWS)</a>
+            </div>
+            <div class="cloud-provider" onclick="openGCPPage()">
+                <img src="download.png" alt="GCP">
+                <a>Google Cloud Platform (GCP)</a>
+            </div>
+            <div class="cloud-provider" onclick="openAzurePage()">
+                <img src="azure-cloud-logo.png" alt="Azure">
+                <a>Microsoft Azure</a>
+            </div>
+        </div>
+        <div class="cloud-providers">
+            <div class="cloud-provider" onclick="openIBMPage()">
+                <img src="IBM_Cloud_logo.png" alt="IBM">
+                <a>IBM Cloud</a>
+            </div>
+            <div class="cloud-provider" onclick="openOraclePage()">
+                <img src="images.png" alt="Oracle">
+                <a>Oracle Cloud</a>
+            </div>
+            <div class="cloud-provider" onclick="openAlibabaPage()">
+                <img src="alibaba.png" alt="Alibaba">
+                <a>Alibaba Cloud</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openAWSPage() {
+            window.open('aws.html', '_blank');
+        }
+
+        function openGCPPage() {
+            window.open('gcp.html', '_blank');
+        }
+
+        function openAzurePage() {
+            window.open('azure.html', '_blank');
+        }
+
+        function openIBMPage() {
+            window.open('ibm.html', '_blank');
+        }
+
+        function openOraclePage() {
+            window.open('oracle.html', '_blank');
+        }
+
+        function openAlibabaPage() {
+            window.open('alibaba.html', '_blank');
+        }
+    </script>
+</body>
+</html>
